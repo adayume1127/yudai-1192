@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+@media (max-width: 768px){
+  .wrapper{
+    padding: 60px 20px;
+  }
+  #prof .container{
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 24px;
+  }
+  .prof-text{
+    text-align: center;
+  }
+  .prof-text p{
+    text-align: left;
+  }
+  .fanname{
+    display: block;
+  }
+  .hero{
+    min-height: 60vh;
+    padding: 100px 20px 80px;
+  }
+  .hero-card{
+    padding: 32px 24px;
+  }
+  .timeline{
+    padding-left: 24px;
+  }
+  .timeline li::before{
+    left: -33px;
+  }
+}
+
+@media (max-width: 480px){
+  .header-inner{
+    justify-content: center;
+    text-align: center;
+  }
+  header nav ul{
+    justify-content: center;
+    gap: 12px 16px;
+    width: 100%;
+  }
+  .insta-link span{
+    display: none;
+  }
+  .insta-link{
+    padding: 8px;
+  }
+  .hero-card h1{
+    line-height: 1.5;
+  }
+  .hero-text{
+    font-size: 0.9rem;
+  }
+  #prof .container{
+    padding: 24px 16px;
+  }
+  .fanname{
+    padding: 18px 20px;
+    font-size: 0.95rem;
+  }
+}

@@ -49,6 +49,17 @@
   .insta-link{
     padding: 8px;
   }
+  .link-card{
+    padding: 18px;
+  }
+  .share-buttons{
+    flex-direction: column;
+    align-items: center;
+  }
+  .share-btn{
+    width: 100%;
+    max-width: 280px;
+  }
   .hero-card h1{
     line-height: 1.5;
   }
